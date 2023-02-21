@@ -1,0 +1,299 @@
+body.index{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/abstrak.jpg');
+    background-size: cover; 
+}
+body{
+    margin: 0;
+}
+
+.home-parent-div{
+    width: 1000px;
+    margin: auto;
+    margin-top: 150px;
+    font-family: 'Handlee', cursive;
+}
+.home-children-div{
+    color: white;
+    width: 50%;
+    box-sizing: border-box;
+
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.home-link-contain a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+.home-link-contain{
+    margin-bottom: 50px;
+}
+.home-children-div h1{
+    font-size: 40px;
+    text-align: center;
+}
+.home-children-div p{
+    font-size: 17px;
+    text-align: center;
+}
+.home-to-about-btn{
+    border: solid 1px white;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+a.home-to-about-btn{
+    text-decoration: none;
+}
+.to-about-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+#dwi{
+    margin-top: 70px;
+}
+.body-about{
+    width: 100%;
+    font-family: 'Handlee', cursive;
+}
+.navigasi{
+    width: 100%;
+}
+.navigasi-contain{
+    width: 1000px;
+    padding: 20px 0px;
+    margin: auto;
+    font-size: 20px;
+}
+.navigasi-contain a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.about-parent-div{
+    width: 1000px;
+    margin: auto;
+}
+.about-title-div{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.about-childern-div{
+    width: 40%;
+    box-sizing: border-box;
+}
+.about-logo-contain{
+    width: 80%;
+    margin-left: 20%;
+}
+.about-logo-contain img{
+    border-radius: 50%;
+}
+.about-childern-div p{
+    font-size: 15px;
+}
+.body-contact{
+    width: 100%;
+    height: 100vh;
+
+}
+.body-contact .navigasi{
+    font-family: 'Handlee', cursive;
+}
+.body-contact-half{
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+.black-bgcolor{
+    background-color: #221F1F;
+}
+.absolute{
+    position: absolute;
+}
+.contact-form-container{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 80%;
+    height: 200px;
+    margin-left: 50px;
+}
+.form-contact{
+    margin-top: 50px;
+}
+.form-contact label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.form-contact input{
+    line-height: 2;
+    font-size: 15px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.form-contact input[type='submit']{
+    display: block;
+    margin-top: 10px;
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    padding: 7px 14px;
+    font-size: 13px;
+    width: 150px;
+}
+.map-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.map{
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+    color: white ;
+}
+.body-newarrival{
+    width: 100%;
+    font-family: 'Handlee', cursive;
+}
+.newarrival-parent-div{
+    width: 1000px;
+    margin: 100px auto;
+}
+.newarrival-children-div{
+    width: 50%;
+    box-sizing: border-box;
+    position: relative;
+}
+.newarival-title-div h1{
+    font-size: 32px;
+    text-align: center;
+}
+.newarrival-main-product-contain{
+    width: 60%;
+    margin: auto;
+}
+.newarrival-main-product-image img{
+    border-radius: 100%;
+}
+.newarrival-main-product-name h2{
+    text-align: center;
+    font-size: 25px;
+}
+.newarrival-discount-contain{
+    display: inline-block;
+    width: 150px;
+    color: red;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+.newarrival-discount-number{
+    font-size: 60px;
+}
+.newarrival-discount-text{
+    font-size: 40px;
+    text-align: right;
+}
+.newarrival-item-contain{
+    width: 90%;
+    margin: 70px auto;
+    background-color: #E0E0E0;
+}
+.newarrival-item-image{
+    width: 30%;
+    margin: 15px;
+    box-sizing: border-box;
+}
+.newarrival-item-desc{
+    width: 60%;
+    box-sizing: border-box;
+    margin: 7px;
+    text-align: right;
+    font-size: 17px;
+}
+.newarrival-item-desc h2:last-child{
+    color: blue;
+}
+.newarrival-item-contain:nth-child(2) .newarrival-item-desc{
+    text-align: left;
+}
+.body-product{
+    width: 100%;
+    font-family: 'Handlee', cursive;
+}
+.product-parent-div{
+    width: 1000px;
+    margin: 80px auto;
+}
+.product-children-div-left{
+    width: 25%;
+    box-sizing: border-box;
+}
+.product-children-div-right{
+    width: 73%;
+    box-sizing: border-box;
+}
+.brand-contain{
+    background-color: #C4C4C4;
+    width: 100%;
+}
+.brand-item-contain{
+    padding: 30px 50px;
+}
+.brand-item-contain h2{
+    font-size: 25px;
+}
+.brand-item-contain li{
+    list-style-type: none;
+    line-height: 1.6;
+    font-size: 20px;
+}
+.brand-item-contain li a{
+    text-decoration: none;
+    color: black;
+}
+.brand-item-contain li a:hover{
+    color: green;
+    font-size: 30px;
+}
+.product-item-contain{
+    text-align: center;
+    height: 130px;
+    width: 20%;
+    display: inline-block;
+    margin: 1.5%;
+}
+.product-item-iamge-contain{
+    height: auto;
+    margin-bottom: 8px;
+}
+.product-item-name-contain{
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+.product-item-desc-contain{
+    margin-bottom: 8px;
+}
+.product-item-price-contain{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
